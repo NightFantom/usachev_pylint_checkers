@@ -1,6 +1,6 @@
 from pip._internal.req import parse_requirements
 from setuptools import setup, find_packages
-from src.usachev import checkers
+
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -13,7 +13,7 @@ def load_requirements(fname):
 
 setup(
     name='usachev_pylint_checkers',
-    version=checkers.__version__,
+    version=0.1,
     author="Denis Usachev",
     author_email="usachevdy@yandex.ru",
     url="https://github.com/NightFantom/usachev_pylint_checkers",
