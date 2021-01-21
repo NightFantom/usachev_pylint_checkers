@@ -1,0 +1,6 @@
+************* Module tests.resources.print_statement
+tests/resources/print_statement.py:7:8: W0080: Code contains print statement (forbidden-print-statement)
+
+------------------------------------------------------------------
+Your code has been rated at 9.00/10 (previous run: 9.00/10, +0.00)
+
